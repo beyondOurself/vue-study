@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 
 import one from './one.vue';
 import two from './two.vue'
+import three from './three.vue'
 
 Vue.use(VueRouter)
 // 0. 如果使用模块化机制编程，导入Vue和VueRouter，要调用 Vue.use(VueRouter)
@@ -20,7 +21,9 @@ Vue.use(VueRouter)
 // 我们晚点再讨论嵌套路由。
 const routes = [
   { path: '/one/:id', component: one },
-  { path: '/two/:username/post/:post_id', component: two }
+  { path: '/two/:username/post/:post_id', component: two },
+  { path: '/three/one', component: three },
+  { path: '/three/two', component: three }
 ]
 
 // 3. 创建 router 实例，然后传 `routes` 配置
