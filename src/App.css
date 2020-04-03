@@ -1,0 +1,39 @@
+.home{
+	
+}
+.home   a {
+	
+	text-decoration: none;
+	background-color: pink;
+	padding: 10px;
+	margin: 10px;
+	color: white;
+	border-radius: 5px;
+	display: inline-block;
+}
+*{
+	box-sizing: border-box;
+}
+ul,li{
+	list-style-type: none;
+	
+}
+
+.home>div{
+	min-height: 1000px;
+	float: left;
+}
+
+.home>div.navigates{
+	border: solid 10px #FFC0CB;
+	width: 60%;
+}
+.home>div.show{
+	width: 40%;
+	padding: 15px;
+}
+.home>div.show >div.show-content-wrap{
+   position: fixed;
+   width: 100%;
+   top: 45%;
+}
