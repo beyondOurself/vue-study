@@ -3,7 +3,7 @@ import Vuex from 'vuex'
 import App from './Vuex.vue'
 import './Vuex.css'
 import VueRouter from 'vue-router'
-import {StateView} from '../Vuex/核心概念/index.js'
+import {StateView,GetterView } from '../Vuex/核心概念/index.js'
 
 Vue.use(VueRouter)
 Vue.use(Vuex)
@@ -24,7 +24,8 @@ const routes = [
 ].concat(
 	//核心概念
 	[
-		{path:"/state",component:StateView}	
+		{path:"/state",component:StateView},	
+		{path:"/getter",component:GetterView},	
 	]
 	)
 

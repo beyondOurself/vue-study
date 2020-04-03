@@ -1,2 +1,3 @@
 import StateView from './state.vue'
-export {StateView}
+import GetterView from './getter.vue'
+export {StateView,GetterView}

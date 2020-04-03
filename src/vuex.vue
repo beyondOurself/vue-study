@@ -5,6 +5,7 @@
         <li>
           <h2>动态路由匹配</h2>
           <router-link to="/state">state</router-link>
+          <router-link to="/getter">getter</router-link>
         </li>
       </ul>
     </div>
