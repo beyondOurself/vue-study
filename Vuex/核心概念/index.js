@@ -1,2 +1,2 @@
-import state from './state.vue'
-export {state}
+import StateView from './state.vue'
+export {StateView}

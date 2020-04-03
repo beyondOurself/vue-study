@@ -4,7 +4,7 @@
       <ul>
         <li>
           <h2>动态路由匹配</h2>
-          <router-link to="/MatchBase/45">基本</router-link>
+          <router-link to="/state">state</router-link>
         </li>
       </ul>
     </div>
@@ -13,7 +13,6 @@
         <!-- 路由出口 -->
         <!-- 路由匹配到的组件将渲染在这里 -->
         <router-view></router-view>
-        <hr />
         <!-- 命名视图 -->
       </div>
     </div>

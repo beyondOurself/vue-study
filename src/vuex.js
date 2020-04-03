@@ -3,6 +3,7 @@ import Vuex from 'vuex'
 import App from './Vuex.vue'
 import './Vuex.css'
 import VueRouter from 'vue-router'
+import {StateView} from '../Vuex/核心概念/index.js'
 
 Vue.use(VueRouter)
 Vue.use(Vuex)
@@ -17,17 +18,13 @@ const store = new Vuex.Store({
 		}
 	}
 })
-
 store.commit('increment')
-
-console.log(store.state.count) // -> 1
-
 const routes = [
 
 ].concat(
 	//核心概念
 	[
-		{path:"/state",component:}	
+		{path:"/state",component:StateView}	
 	]
 	)
 
