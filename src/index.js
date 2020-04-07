@@ -6,35 +6,35 @@ import {
 	MatchBase,
 	MatchOne,
 	MatchTwo
-} from '../vue-router/基础/动态路由匹配/index.js由匹配/index.js'
+} from '../vue-router/基础/动态路由匹配/index.js'
 import {
 	NestBase,
 	NestOne,
-} from '../vue-router/基础/嵌套路由/index.js.js套路由/index.js.js'
+} from '../vue-router/基础/嵌套路由/index.js'
 import {
 	ProgrammeBase,
-} from '../vue-router/基础/编程式的导航/index.js.js的导航/index.js.js'
+} from '../vue-router/基础/编程式的导航/index.js'
 import {
 	NameBase,
-} from '../vue-router/基础/命名路由/index.js.js名路由/index.js.js'
+} from '../vue-router/基础/命名路由/index.js'
 import {
 	ViewBase,
 	ViewOne,
 	ViewTwo,
 	ViewChildren,
 	ViewChildrenView
-} from '../vue-router/基础/命名视图/index.js.js名视图/index.js.js'
+} from '../vue-router/基础/命名视图/index.js'
 import {
 	RedirectBase,
 	RedirectOne,
-} from '../vue-router/基础/重定向和别名/index.js.js和别名/index.js.js'
+} from '../vue-router/基础/重定向和别名/index.js'
 import {
 	TransferBase,
 	TransferOtherView,
-} from '../vue-router/基础/路由组件传参/index.js.js件传参/index.js.js'
+} from '../vue-router/基础/路由组件传参/index.js'
 import {
 	GuaidBase,
-} from '../vue-router./vue-router/进阶/导航守卫/index.js'
+} from '../vue-router/进阶/导航守卫/index.js'
 
 Vue.use(VueRouter)
 // 0. 如果使用模块化机制编程，导入Vue和VueRouter，要调用 Vue.use(VueRouter)
